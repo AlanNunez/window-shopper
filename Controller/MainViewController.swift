@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainVC: UIViewController {
 
     @IBOutlet weak var logoCompany: UIImageView!
     override func viewDidLoad() {
