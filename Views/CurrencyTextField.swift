@@ -19,6 +19,7 @@ class CurrencyTextField: UITextField {
         currencyLbl.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         currencyLbl.layer.cornerRadius = 5.0
         currencyLbl.clipsToBounds = true
+        
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
         formatter.locale = .current
